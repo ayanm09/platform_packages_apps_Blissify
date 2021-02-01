@@ -1365,7 +1365,6 @@
     <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
     <string name="fod_recog_animation_picker">Animation style</string>
     <string name="fod_recog_animation_picker_summary">Select which animation to show</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
     <string name="fod_recog_animation_effect_title">Select fingerprint animation effect</string>
     <string name="fod_recog_animation_miui_normal">MIUI default</string>
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>

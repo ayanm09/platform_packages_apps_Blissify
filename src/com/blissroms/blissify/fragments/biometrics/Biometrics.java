@@ -17,7 +17,7 @@
 package com.blissroms.blissify.fragments.biometrics;
 
 import com.android.internal.logging.nano.MetricsProto;
-
+import com.android.settings.SettingsPreferenceFragment;
 import android.os.Bundle;
 import android.content.Context;
 import android.content.Intent;
@@ -73,7 +73,7 @@ public class Biometrics extends SettingsPreferenceFragment implements
 
         final PreferenceCategory fodCat = (PreferenceCategory) prefScreen
                 .findPreference(FOD_ANIMATION_CATEGORY);
-        final boolean isFodAnimationResources = AncientUtils.isPackageInstalled(getContext(),
+        final boolean isFodAnimationResources = BlissUtils.isPackageInstalled(getContext(),
                       getResources().getString(com.android.internal.R.string.config_fodAnimationPackage));
         if (!isFodAnimationResources) {
             prefSet.removePreference(fodCat);
